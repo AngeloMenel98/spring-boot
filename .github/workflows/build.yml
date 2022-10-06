@@ -126,4 +126,4 @@ jobs:
         id-token: write
       steps:
         - name: Call Test
-        -  run: mvn test -f "/home/angelo/spring-boot/pom.xml"
+        - run: mvn test -f "/home/angelo/spring-boot/pom.xml"
