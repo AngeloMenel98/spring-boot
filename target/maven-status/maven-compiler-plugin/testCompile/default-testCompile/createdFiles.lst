@@ -1,3 +1,5 @@
 sample/actuator/HealthIT.class
+sample/actuator/SampleControllerTest.class
 sample/actuator/HelloWorldServiceTest.class
+sample/actuator/AbstractTest.class
 sample/actuator/ExampleInfoContributorTest.class

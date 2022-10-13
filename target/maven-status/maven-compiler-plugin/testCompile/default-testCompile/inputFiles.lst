@@ -1,3 +1,5 @@
-/home/angelo/Ing_3/Trabajo_Practico_6/spring-boot/src/test/java/sample/actuator/HealthIT.java
-/home/angelo/Ing_3/Trabajo_Practico_6/spring-boot/src/test/java/sample/actuator/ExampleInfoContributorTest.java
-/home/angelo/Ing_3/Trabajo_Practico_6/spring-boot/src/test/java/sample/actuator/HelloWorldServiceTest.java
+/home/angelo/spring-boot/src/test/java/sample/actuator/SampleControllerTest.java
+/home/angelo/spring-boot/src/test/java/sample/actuator/AbstractTest.java
+/home/angelo/spring-boot/src/test/java/sample/actuator/HealthIT.java
+/home/angelo/spring-boot/src/test/java/sample/actuator/ExampleInfoContributorTest.java
+/home/angelo/spring-boot/src/test/java/sample/actuator/HelloWorldServiceTest.java
