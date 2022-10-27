@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="sample.actuator.SampleControllerTest" time="2.673" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="sample.actuator.SampleControllerTest" time="2.731" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/angelo/Documentos/Libraries/jdk1.8.0_341/jre/lib/i386"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
-    <property name="os.version" value="5.15.65-1-MANJARO"/>
+    <property name="os.version" value="5.15.74-3-MANJARO"/>
     <property name="library.jansi.path" value="/home/angelo/Documentos/Libraries/apache-maven-3.8.6/lib/jansi-native"/>
     <property name="user.home" value="/home/angelo"/>
     <property name="user.timezone" value="America/Argentina/Cordoba"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="sample.actuator.SampleControllerTest" name="testRootMessage" time="0.11"/>
+  <testcase classname="sample.actuator.SampleControllerTest" name="testRootMessage" time="0.103"/>
 </testsuite>

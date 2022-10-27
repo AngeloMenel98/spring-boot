@@ -12,7 +12,11 @@ EXPOSE 8080
 RUN mkdir /app
 COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar /app/spring-boot-application.jar
 
+ENV PORT=8080
+
 ENV JAVA_OPTS="-Xms32m -Xmx128m"
+
+CMD ["java", "-Xms32m", "-Xmx128m", "-jar", "-Dserver.port=${PORT}", "-Djava.security.egd=file:/dev/./urandom", "/app/spring-boot-application.jar"]
 
 ENTRYPOINT exec java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar
 
